@@ -3,12 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kitten laboratoria</title>
+	<link rel="stylesheet" href="assets/css/media.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 	<section id="contenedor" class="flex-container">
-		<img src="assets/img/Copia de Landscape.jpg" alt="fondo día">
-		<img src="assets/img/Copia de kitten-medium.png" alt="gato frente" class="gato">
+		<picture>
+			
+			<source srcset="assets/img/kitten-medium.png" alt="gato estirandose"  media="(min-width: 825px)">
+			<source srcset="assets/img/kitten-large.png" alt="gato durmiendo"  media="(min-width: 535px)">
+			<img srcset="assets/img/kitten-small.png" alt="gato despierto">
+		</picture>
 	</section>
 
 </body>

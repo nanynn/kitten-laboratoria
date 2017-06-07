@@ -1,7 +1,4 @@
 *{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
@@ -11,28 +8,10 @@
 }
 
 #contenedor.flex-container{
-	justify-content: center;
-	align-items: center;
-}
-img{
 	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: flex-end;
 }
-.gato{
 
-}
 
-@media (min-width: 535px) and (max-width: 824px){
-	[.flex-container]{
-	display: flex;
-	}
-	body{
-		background-image: url(../img/Copia de dawn.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		position: relative;
-	}
-	img{
-		background-image: url(../img/Copia de kitten-medium.png);
-
-	}
-}

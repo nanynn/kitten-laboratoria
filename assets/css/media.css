@@ -1,0 +1,24 @@
+
+@media (min-width: 825px) and (max-width: 1200px){
+	#contenedor{
+		background-image: url(../img/Landscape.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 535px) and (max-width: 824px){
+	#contenedor{
+		background-image: url(../img/dawn.png);
+		background-size: cover;
+		height: 100vh;
+	}
+}
+
+@media (min-width: 10px) and (max-width: 534px){
+	#contenedor{
+		background-image: url(../img/maxresdefault.jpg);
+		background-size: cover;
+		height: 100vh;
+	}
+}
